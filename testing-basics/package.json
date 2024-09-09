@@ -4,7 +4,7 @@
   "description": "testing using jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch * .js",
     "watch": "nodemon script.js"
   },
   "keywords": [
@@ -20,6 +20,7 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
+    "node-fetch": "^2.7.0",
     "nodemon": "^3.1.4"
   }
 }
